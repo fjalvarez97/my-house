@@ -62,9 +62,10 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
+        
         /**sun.slowMoveVertical(115);
            */
-       
+      
     }
 
     /**
@@ -79,6 +80,12 @@ public class Picture
             roof.changeColor("black");
             sun.changeColor("black");
         }
+    }
+    
+    public void moveSun()
+    
+    {
+        sun.slowMoveVertical(115);
     }
 
     /**
